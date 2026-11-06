@@ -9,7 +9,7 @@ public class Cliente {
     public Cliente(int id, String nome, int desconto) {
         this.id = id;
         this.nome = nome;
-        this.desconto = desconto;
+        this.desconto = Math.max(0, desconto);
     }
 
     public int getId() {
@@ -29,7 +29,7 @@ public class Cliente {
     }
 
     public void setDesconto(int desconto) {
-        this.desconto = desconto;
+        this.desconto = Math.max(0, desconto);
     }
 
     @Override
