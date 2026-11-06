@@ -1,10 +1,7 @@
 # PoC Clientes com TDD e Git
 
 ## Integrantes
-- Nome completo do integrante 1
-- Nome completo do integrante 2
-- Nome completo do integrante 3 (se houver)
-- Nome completo do integrante 4 (se houver)
+- Maria Eduarda Gonçalves Gomes
 
 ## Tecnologias
 - Java 8
