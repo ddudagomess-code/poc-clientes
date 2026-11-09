@@ -13,7 +13,8 @@ class ClienteTest {
         assertEquals("Maria", cliente.getNome());
         assertEquals(10, cliente.getDesconto());
         assertEquals("nd", cliente.getGenero());
-    }@Test
+    }
+    @Test
 void naoDevePermitirDescontoNegativo() {
     Cliente cliente = new Cliente(2, "Ana", -10);
 
